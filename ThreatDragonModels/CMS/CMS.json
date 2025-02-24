@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "195dd972-ff77-44c3-8684-f3720623d338",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -172,6 +172,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -255,7 +256,6 @@
               ]
             },
             "id": "df020ef6-ce56-4b57-a6af-36213450653b",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Registration\n Page",
@@ -326,6 +326,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -409,7 +410,6 @@
               ]
             },
             "id": "a61b0f9e-1859-4ee5-9834-7014c35615e8",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Validation \nService",
@@ -472,6 +472,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -555,7 +556,6 @@
               ]
             },
             "id": "b08ccf4e-216e-4e9f-ae42-74785f07457c",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Database",
