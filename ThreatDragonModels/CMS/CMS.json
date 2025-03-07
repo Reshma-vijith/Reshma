@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "summary": {
     "title": "CMS",
     "owner": "Reshma",
@@ -15,7 +15,7 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.4.0",
+        "version": "2.4.1",
         "cells": [
           {
             "position": {
@@ -628,41 +628,6 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -677,6 +642,44 @@
               "protocol": "",
               "threats": []
             },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Active Account",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
             "id": "8950404d-03f6-4d16-a3bc-bbb62cc143cc",
             "source": {
               "x": 183,
@@ -704,41 +707,6 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -753,6 +721,44 @@
               "protocol": "",
               "threats": []
             },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Active Account",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
             "id": "dc61ef56-5801-424c-b01a-63a9f81f6e83",
             "source": {
               "x": 480,
@@ -761,7 +767,13 @@
             "target": {
               "cell": "a61b0f9e-1859-4ee5-9834-7014c35615e8",
               "port": "97b714e2-1940-452c-b9cc-826aff638b84"
-            }
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 130
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -780,41 +792,6 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -829,6 +806,44 @@
               "protocol": "",
               "threats": []
             },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Active Account",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
             "id": "b0760d7f-f9f7-4b55-9ceb-9c7ceda0d5aa",
             "source": {
               "x": 750,
@@ -856,41 +871,6 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -905,6 +885,44 @@
               "protocol": "",
               "threats": []
             },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Active Account",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
             "id": "d6df0f1e-5145-4df6-919d-05f9a178a885",
             "source": {
               "x": 840,
@@ -938,41 +956,6 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -987,6 +970,44 @@
               "protocol": "",
               "threats": []
             },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Active Account",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
             "id": "ce97715f-7ce4-4dc1-acbd-43a587dba33a",
             "source": {
               "x": 690,
@@ -1020,41 +1041,6 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1069,6 +1055,44 @@
               "protocol": "",
               "threats": []
             },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Active Account",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
             "id": "ee1c7330-a367-4bf9-a29c-99bf5498d2b2",
             "source": {
               "x": 183,
@@ -1102,41 +1126,6 @@
             "width": 200,
             "height": 100,
             "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1151,6 +1140,44 @@
               "protocol": "",
               "threats": []
             },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Active Account",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
             "id": "f2cee1ae-bb01-4e64-abe8-5daed3374e76",
             "source": {
               "x": 470,
