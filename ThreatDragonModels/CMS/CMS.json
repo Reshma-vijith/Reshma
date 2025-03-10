@@ -602,13 +602,6 @@
                 "informationDisclosure": 0,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -643,47 +636,12 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "User Details"
             ],
-            "id": "8950404d-03f6-4d16-a3bc-bbb62cc143cc",
+            "id": "e9211893-edfb-4297-bdb1-ff92ba49ca2c",
             "source": {
               "x": 183,
-              "y": 121
+              "y": 100
             },
             "target": {
               "cell": "df020ef6-ce56-4b57-a6af-36213450653b",
@@ -710,7 +668,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Form submission",
+              "name": "Enter OTP",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -722,136 +680,16 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "Enter OTP"
             ],
-            "id": "dc61ef56-5801-424c-b01a-63a9f81f6e83",
+            "id": "7fcd07d6-c838-434a-9c5d-f8792a3381e7",
             "source": {
-              "x": 480,
-              "y": 90
+              "x": 183,
+              "y": 134
             },
             "target": {
-              "cell": "a61b0f9e-1859-4ee5-9834-7014c35615e8",
-              "port": "97b714e2-1940-452c-b9cc-826aff638b84"
-            },
-            "vertices": [
-              {
-                "x": 600,
-                "y": 130
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Store credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "id": "b0760d7f-f9f7-4b55-9ceb-9c7ceda0d5aa",
-            "source": {
-              "x": 750,
-              "y": 130
-            },
-            "target": {
-              "x": 850,
-              "y": 230
+              "cell": "df020ef6-ce56-4b57-a6af-36213450653b",
+              "port": "9b15d6ce-66f1-4855-83a4-1308a6365a4b"
             }
           },
           {
@@ -874,7 +712,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Success/failure",
+              "name": "Sucess/Failure",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -886,56 +724,65 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "Sucess/Failure"
             ],
-            "id": "d6df0f1e-5145-4df6-919d-05f9a178a885",
+            "id": "18c1000b-2f6c-4cf1-891a-4f1122c5849f",
             "source": {
-              "x": 840,
-              "y": 310
+              "x": 880,
+              "y": 290
             },
             "target": {
               "cell": "df020ef6-ce56-4b57-a6af-36213450653b",
               "port": "97b714e2-1940-452c-b9cc-826aff638b84"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Active Account",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Active Account"
+            ],
+            "id": "f4e667d3-18ae-428b-9ffa-d8a340399f0e",
+            "source": {
+              "x": 470,
+              "y": 50
+            },
+            "target": {
+              "cell": "b08ccf4e-216e-4e9f-ae42-74785f07457c",
+              "port": "8ebc3e4b-17d1-4d97-8707-7c30d9638cb8"
             },
             "vertices": [
               {
-                "x": 590,
-                "y": 270
+                "x": 820,
+                "y": 50
               }
             ]
           },
@@ -971,56 +818,21 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "OTP / Email\nverification"
             ],
-            "id": "ce97715f-7ce4-4dc1-acbd-43a587dba33a",
+            "id": "4afea5a0-ea56-44f9-a62a-e944dc1bee07",
             "source": {
-              "x": 690,
-              "y": 140
+              "cell": "a61b0f9e-1859-4ee5-9834-7014c35615e8",
+              "port": "97b714e2-1940-452c-b9cc-826aff638b84"
             },
             "target": {
-              "x": 180,
-              "y": 170
+              "cell": "195dd972-ff77-44c3-8684-f3720623d338",
+              "port": "768710bd-666d-4151-bf37-c428e28540cc"
             },
             "vertices": [
               {
-                "x": 410,
-                "y": 220
+                "x": 380,
+                "y": 270
               }
             ]
           },
@@ -1044,7 +856,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Enter OTP",
+              "name": "Form submission",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1056,58 +868,17 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "Form submission"
             ],
-            "id": "ee1c7330-a367-4bf9-a29c-99bf5498d2b2",
+            "id": "2d1ad959-daed-442c-830a-b0c9b8d6e5d5",
             "source": {
-              "x": 183,
-              "y": 150
+              "x": 480,
+              "y": 110
             },
             "target": {
-              "cell": "df020ef6-ce56-4b57-a6af-36213450653b",
+              "cell": "a61b0f9e-1859-4ee5-9834-7014c35615e8",
               "port": "9b15d6ce-66f1-4855-83a4-1308a6365a4b"
-            },
-            "vertices": [
-              {
-                "x": 290,
-                "y": 150
-              }
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1129,7 +900,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Active Account",
+              "name": "Score credentials",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1141,47 +912,12 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Active Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "Score credentials"
             ],
-            "id": "f2cee1ae-bb01-4e64-abe8-5daed3374e76",
+            "id": "d0584cff-8018-4e97-a327-1686a99dbbbf",
             "source": {
-              "x": 470,
-              "y": 50
+              "cell": "a61b0f9e-1859-4ee5-9834-7014c35615e8",
+              "port": "7c31a23d-3a72-4ffc-aa64-3bdc2f01e0ce"
             },
             "target": {
               "cell": "b08ccf4e-216e-4e9f-ae42-74785f07457c",
@@ -1189,8 +925,8 @@
             },
             "vertices": [
               {
-                "x": 800,
-                "y": 70
+                "x": 780,
+                "y": 140
               }
             ]
           }
